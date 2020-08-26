@@ -1,0 +1,8 @@
+.header-list ul{
+  list-style-type: none;
+  text-align: right;
+}
+.header-list ul li{
+  display: inline-block;
+  font-size: 25px
+}
