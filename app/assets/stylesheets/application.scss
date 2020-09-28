@@ -1,0 +1,26 @@
+.header-list{
+  ul{
+   list-style-type: none;
+   text-align: right;
+  }
+  li{
+    padding: 12px 30px;
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px;
+    background-color: #f778b8;
+    cursor: pointer;
+    box-shadow: 0 5px #e04893;
+    display: inline-block;
+    font-size: 30px
+    &:hover{
+     background-color: red;
+     opacity: 1;
+    }
+    &:active{
+      position: relative;
+      top: 7px;
+      box-shadow: none;
+    }
+  }
+}
